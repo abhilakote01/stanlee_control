@@ -27,7 +27,9 @@ setup(
     entry_points={
         'console_scripts': [
             'gym_bridge = f1tenth_gym_ros.gym_bridge:main',
-            'way_follower = f1tenth_gym_ros.way_follower:main',
+            'way_follower_cl = f1tenth_gym_ros.way_follower_cl:main',
+            'way_follower_rl = f1tenth_gym_ros.way_follower_rl:main',
+            'dynamic = f1tenth_gym_ros.dynamic:main',
         ],
     },
 )
